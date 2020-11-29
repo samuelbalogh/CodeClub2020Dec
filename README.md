@@ -24,5 +24,23 @@ Approach:
 
 Main course content: https://repl.it/@SamuBalogh/Lesson-1#main.py
 
+- What is Python used for
+- code, whitespace, comments
+- data types
+- variables
+- operators (+,-,*,**,/,//,and,or,not)
+- comparison of variables (==)
+- functions (definition, parameters, function calls, return values)
+- built-in functions
+
+
+## Lesson 2
+
+- Flow control: if/else
+- Loops: for, while
+  - breaking out of loops
+- 
+
+
 
 
