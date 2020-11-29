@@ -28,7 +28,7 @@ Main course content: https://repl.it/@SamuBalogh/Lesson-1#main.py
 - code, whitespace, comments
 - data types
 - variables
-- operators (+,-,*,**,/,//,and,or,not)
+- operators (+, -, *, **, /, //, and, or, not)
 - comparison of variables (==)
 - functions (definition, parameters, function calls, return values)
 - built-in functions
