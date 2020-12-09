@@ -1,5 +1,7 @@
 # Python cheatsheet
 
+Table of contents
+
 <!-- toc -->
 
 - [Whitespace](#whitespace)
@@ -98,7 +100,21 @@ Strings represent **text**. They are between single or double quotes.
 food = 'spaghetti'
 ```
 
+[Python docs](https://docs.python.org/3/tutorial/introduction.html?fbclid=IwAR3knUj3nO0-f2fYMS5Yb5MbGplB93buRymiE_07F06rufql14v5bKrzErk#strings)
+
+
 #### Common operations
+
+We can make strings uppercase, lowercase, capitalized:
+
+```
+>>> 'broccoli'.upper()
+'BROCCOLI'
+>>> 'BEER'.lower()
+'beer`
+>>> 'joe'.capitalize()
+'Joe'
+```
 
 
 ### Booleans
@@ -106,6 +122,8 @@ food = 'spaghetti'
 Values representing "Boolean logic": True/False. 
 
 `True` and `False` are the only boolean values.
+
+[A good article about booleans](https://thomas-cokelaer.info/tutorials/python/boolean.html?fbclid=IwAR0mg4nzR6uQ4JvneWMGzLH6yiYzeb4Lo_C83ddo5vwXAcy_-lRdH61Q-Gw#notes-about-booleans-and-logical-operators)
 
 
 #### Common operations
@@ -121,7 +139,22 @@ squares = [1, 4, 9, 16, 25]
 
 You can put any data type into a list.
 
+[Python docs](https://docs.python.org/3/tutorial/introduction.html?fbclid=IwAR3knUj3nO0-f2fYMS5Yb5MbGplB93buRymiE_07F06rufql14v5bKrzErk#lists)
+[More on lists](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
+
 #### Common operations
+
+Lists are very versatile, you can do a lot of things with them.
+
+You add an item to a list with the `append()` function:
+
+```
+>>> my_list = [1, 2, 3]
+>>> my_list.append(4)
+>>> my_list
+[1, 2, 3, 4]
+```
+
 
 
 
