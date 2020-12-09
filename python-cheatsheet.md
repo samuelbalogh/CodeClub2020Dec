@@ -153,11 +153,39 @@ Values representing "Boolean logic": True/False.
 
 `True` and `False` are the only boolean values.
 
-[A good article about booleans](https://thomas-cokelaer.info/tutorials/python/boolean.html?fbclid=IwAR0mg4nzR6uQ4JvneWMGzLH6yiYzeb4Lo_C83ddo5vwXAcy_-lRdH61Q-Gw#notes-about-booleans-and-logical-operators)
+This is a [good article about booleans](https://thomas-cokelaer.info/tutorials/python/boolean.html?fbclid=IwAR0mg4nzR6uQ4JvneWMGzLH6yiYzeb4Lo_C83ddo5vwXAcy_-lRdH61Q-Gw#notes-about-booleans-and-logical-operators).
 
 
 #### Common operations
 
+Common boolean operators are the following logical operators: `and`, `or` and `not`.
+
+`and` returns `True` if both sides are true. Otherwise, it returns `False`.
+
+```
+>>> True and True
+True
+>>> True and False
+False
+```
+
+`or` returns True if any of the two sides is True:
+
+```
+>>> True or False
+True
+>>> False or False
+False
+```
+
+`not` returns the opposite boolean value:
+
+```
+>>> not True
+False
+>>> not False
+True
+```
 
 ### Lists
 
