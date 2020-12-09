@@ -30,7 +30,7 @@ def find_meaning_of_life():
     return 42
 ```
 
-As another example, if/else statements are also indented by one level:
+As another example, the bodies of if/else statements are also indented by one level:
 
 ```
 favourite_food = 'beer'
@@ -160,7 +160,7 @@ You add an item to a list with the `append()` function:
 
 ## Functions
 
-We write functions to be able to re-use our code - we don't like copy-pasting a lot.
+We write functions to be able to **re-use our code** - we don't like copy-pasting a lot.
 
 A function definition looks like the following:
 
