@@ -9,12 +9,13 @@ Table of contents
 - [Variables](#variables)
 - [Data types](#data-types)
   * [Numeric types](#numeric-types)
-  * [Strings](#strings)
     + [Common operations](#common-operations)
-  * [Booleans](#booleans)
+  * [Strings](#strings)
     + [Common operations](#common-operations-1)
-  * [Lists](#lists)
+  * [Booleans](#booleans)
     + [Common operations](#common-operations-2)
+  * [Lists](#lists)
+    + [Common operations](#common-operations-3)
 
 <!-- tocstop -->
 
