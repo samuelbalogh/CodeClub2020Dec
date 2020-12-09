@@ -31,9 +31,20 @@ For whitespace, you can use either spaces or tabs (but not both).
 We declare variables by assigning a **value** to a **name**:
 
 ```
->>> favourite_food = 'mac and cheese'
+favourite_food = 'mac and cheese'
 ```
 
-The name of a variable can not contain whitespaces. 
+We do this to be able to **re-use** these values in our code, and so we don't have to repeate ourselves.
+
+
+## Data types
+
+### Numeric types
+
+- integers: `1, 2, 42`  
+- floats: `3.0, 1.232, .01`
+
+
+
 
 
