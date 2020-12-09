@@ -16,6 +16,7 @@ Table of contents
     + [Common operations](#common-operations-2)
   * [Lists](#lists)
     + [Common operations](#common-operations-3)
+- [Functions](#functions)
 
 <!-- tocstop -->
 
