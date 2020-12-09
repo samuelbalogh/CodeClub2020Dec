@@ -9,13 +9,9 @@ Table of contents
 - [Variables](#variables)
 - [Data types](#data-types)
   * [Numeric types](#numeric-types)
-    + [Common operations](#common-operations)
   * [Strings](#strings)
-    + [Common operations](#common-operations-1)
   * [Booleans](#booleans)
-    + [Common operations](#common-operations-2)
   * [Lists](#lists)
-    + [Common operations](#common-operations-3)
 - [Functions](#functions)
 
 <!-- tocstop -->
@@ -90,6 +86,26 @@ We can use the common mathematical operations on numbers: `+`, `-`, `*`, `**` (e
 ```
 >>> 5 * 5
 25
+```
+
+```
+>>> 3 ** 3
+27
+```
+
+```
+>>> 15 / 4
+3.75
+```
+
+```
+>>> 15 // 4
+3
+```
+
+```
+>>> 15 % 4
+3
 ```
 
 ```
