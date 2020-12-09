@@ -65,6 +65,12 @@ In the above example, we have assigned the value `mac and cheese` to the name `f
 
 We do this to be able to **re-use** these values in our code, and so we don't have to repeat ourselves.
 
+A variable can be of any data type. In the above example, the `favourite_food` variable is a string. In the following example, we assing an integer type to the variable named `meaning_of_life`:  
+
+```
+meaning_of_life = 42
+```
+
 
 ## Data types
 
@@ -73,11 +79,13 @@ We do this to be able to **re-use** these values in our code, and so we don't ha
 - integers: `1, 2, 42`  
 - floats: `3.0, 1.232, .01`
 
-There are also complex numbers but their usage is very rare.
+(There is a data type for complex numbers, but their usage is very rare)
 
 #### Common operations 
 
 We can use the common mathematical operations on numbers: `+`, `-`, `*`, `**` (exponent), `/`, `//`, `%` (modulo)
+
+> Note: when you see the `>>>` sign, it refers to the interactive interpreter of Python: it's the "prompt" of Python. This is what you see when you start up Python on your computer.
 
 ```
 >>> 5 * 5
