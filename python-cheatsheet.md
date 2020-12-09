@@ -157,6 +157,26 @@ You add an item to a list with the `append()` function:
 ```
 
 
+## Functions
+
+We write functions to be able to re-use our code - we don't like copy-pasting a lot.
+
+A function definition looks like the following:
+
+```
+def calculate_the_meaning_of_life(arg):
+    return arg + 42
+```
+
+Some imporant points:
+
+- The definition starts with the `def` keyword
+- After the `def` keyword, we have to give a name to our function
+- After the name, there has to be an opening parenthesis ( `(` character), after which, there can be a number of **arguments**, then a closing parenthesis, then a colon (`:`) character.
+- Arguments are the input values of our function
+- The function body is **indented** by one level
+- Usually a function has a **return value** which is denoted by the `return` statement. However, it's not obligatory to have a return value - a function can just return nothing, or print something, or modify something (we will look at examples for each of these later).
+
 
 
 
