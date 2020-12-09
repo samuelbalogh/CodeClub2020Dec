@@ -52,6 +52,7 @@ For whitespace, you can use either spaces or tabs (but not both).
 ## Variables
 
 We declare variables by assigning a **value** to a **name**:
+We do this to be able to **re-use** these values in our code, and so we don't have to repeat ourselves.
 
 ```
 favourite_food = 'mac and cheese'
@@ -59,7 +60,6 @@ favourite_food = 'mac and cheese'
 
 In the above example, we have assigned the value `mac and cheese` to the name `favourite_food`.
 
-We do this to be able to **re-use** these values in our code, and so we don't have to repeat ourselves.
 
 A variable can be of any data type. In the above example, the `favourite_food` variable is a string. In the following example, we assing an integer type to the variable named `meaning_of_life`:  
 
@@ -190,7 +190,7 @@ You add an item to a list with the `append()` function:
 
 We write functions to be able to **re-use our code** - we don't like copy-pasting a lot.
 
-A function definition looks like the following:
+A function definition can look like the following:
 
 ```
 def calculate_the_meaning_of_life(arg):
