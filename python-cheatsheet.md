@@ -188,13 +188,28 @@ You add an item to a list with the `append()` function:
 
 ## Functions
 
-We write functions to be able to **re-use our code** - we don't like copy-pasting a lot.
+We write functions to be able to **re-use** our code. If we have defined a function, we can use it later any time we want, for as many times we want.
 
 A function definition can look like the following:
 
 ```
-def calculate_the_meaning_of_life(arg):
-    return arg + 42
+def multiply(x, y):
+    if type(x) not in [int, float] or type(y) not in [int, float]:
+        print("Not a number, cannot multiply!")
+        return
+    else:
+        return x * y
+
+```
+
+A function call actually executes the function:
+
+```
+>>> multiply(5, 3)
+15
+
+>>> multiply(5, 'pizza')
+'Not a number, cannot multiply!'
 ```
 
 Some imporant points:
