@@ -170,13 +170,28 @@ squares = [1, 4, 9, 16, 25]
 You can put any data type into a list.
 
 [Python docs](https://docs.python.org/3/tutorial/introduction.html?fbclid=IwAR3knUj3nO0-f2fYMS5Yb5MbGplB93buRymiE_07F06rufql14v5bKrzErk#lists)
-[More on lists](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
 
 #### Common operations
 
 Lists are very versatile, you can do a lot of things with them.
 
-You add an item to a list with the `append()` function:
+You can **slice** them, just like strings:
+
+```
+>>> my_list = [1, 2, 3]
+>>> my_list[1:3]
+[2, 3]
+```
+
+You can **index** them:
+
+```
+>>> my_list = [1, 2, 3]
+>>> my_list[0]
+1
+```
+
+You add an item to a list with the `append()` method:
 
 ```
 >>> my_list = [1, 2, 3]
@@ -184,6 +199,11 @@ You add an item to a list with the `append()` function:
 >>> my_list
 [1, 2, 3, 4]
 ```
+
+You can remove an item with the `remove()` method, and you can do a lot of other things - check out these articles for more:
+
+- [RealPython](https://realpython.com/python-lists-tuples/#python-lists)
+- [More on lists](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
 
 
 ## Functions
