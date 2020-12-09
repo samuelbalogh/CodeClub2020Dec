@@ -172,12 +172,14 @@ def calculate_the_meaning_of_life(arg):
 Some imporant points:
 
 - The definition starts with the `def` keyword
-- After the `def` keyword, we have to give a name to our function
+- After the `def` keyword, we have to give a **name** to our function
 - After the name, there has to be an opening parenthesis ( `(` character), after which, there can be a number of **arguments**, then a closing parenthesis, then a colon (`:`) character.
 - Arguments are the input values of our function
 - The function body is **indented** by one level
 - Usually a function has a **return value** which is denoted by the `return` statement. However, it's not obligatory to have a return value - a function can just return nothing, or print something, or modify something (we will look at examples for each of these later).
 
+
+A very detailed article about functions can be read [here](https://realpython.com/defining-your-own-python-function/#functions-in-python). 
 
 
 
