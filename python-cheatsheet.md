@@ -287,12 +287,23 @@ For example, if we have a list, we can go over the items of the list, and print 
 
 ```
 fruits = ["apple", "banana", "cherry"]
+
 for x in fruits:
   print(x)
 ```
 
 Like variables and functions, loops can be use to **re-use our code**: we can repeat the same action a number of times. In the example above, we repeat the `print` function for all elements in the list.
 
+
+```
+# print the foods that are not 'broccoli'
+
+foods = ['steak', 'broccoli', 'sausage', 'pizza', 'beer', 'spaghetti']
+
+for food in foods:
+    if food != 'broccoli':
+        print(food) 
+```
 
 
 
