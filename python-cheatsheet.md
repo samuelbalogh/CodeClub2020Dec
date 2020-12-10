@@ -146,6 +146,10 @@ We can make strings uppercase, lowercase, capitalized:
 'Joe'
 ```
 
+(You might have noticed that we do this by appending a period (`.`) and then calling a function - these are called "methods" and we'll learn about them a bit later)
+
+The full list of string methods can be seen [here in the official Python docs](https://docs.python.org/3/library/stdtypes.html#string-methods).
+
 
 ### Booleans
 
