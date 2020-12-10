@@ -279,4 +279,23 @@ A very detailed article about functions can be read [here](https://realpython.co
 
 
 
+## Loops
+
+### For loop
+
+`for` loops are used to **iterate over a sequence of values**.
+
+For example, if we have a list, we can go over the items of the list, and print them, one by one.
+
+
+```
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+```
+
+Like variables and functions, loops can be use to **re-use our code**: we can repeat the same action a number of times. In the example above, we repeat the `print` function for all elements in the list.
+
+
+
 
