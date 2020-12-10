@@ -8,11 +8,8 @@ Table of contents
 - [Comments](#comments)
 - [Variables](#variables)
 - [Data types](#data-types)
-  * [Numeric types](#numeric-types)
-  * [Strings](#strings)
-  * [Booleans](#booleans)
-  * [Lists](#lists)
 - [Functions](#functions)
+- [Loops](#loops)
 
 <!-- tocstop -->
 
