@@ -145,6 +145,32 @@ We can make strings uppercase, lowercase, capitalized:
 
 (You might have noticed that we do this by appending a period (`.`) and then calling a function - these are called "methods" and we'll learn about them a bit later)
 
+Strings can be added together
+
+```
+>>> 'I love ' + 'pizza'
+'I love pizza'
+```
+
+
+You can count the number of times a string occurs in another string:
+
+```
+>>> foods = 'broccoli sausage pizza pizza hamburger spinach potatoes fris pizza pizza'
+>>> foods.count('pizza')
+4
+```
+
+You can "slice" them - this means that you can get a "substring" of them. For example, to get the first eight characters of the string from above, you could do:
+
+```
+>>> foods[0:8]
+'broccoli'
+```
+
+You can do a lot with slicing. Check out this article: https://realpython.com/python-strings/#string-slicing
+
+
 The full list of string methods can be seen [here in the official Python docs](https://docs.python.org/3/library/stdtypes.html#string-methods).
 
 
