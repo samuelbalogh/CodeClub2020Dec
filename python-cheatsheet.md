@@ -132,6 +132,14 @@ food = 'spaghetti'
 
 #### Common operations
 
+
+You can get the length of a string using the built-in `len` function:
+
+```
+>>> len('pizza')
+5
+```
+
 We can make strings uppercase, lowercase, capitalized:
 
 ```
@@ -150,6 +158,13 @@ Strings can be added together
 ```
 >>> 'I love ' + 'pizza'
 'I love pizza'
+```
+
+We can check if a string starts with or ends with a particular prefix or suffix:
+
+```
+>>> 'tomato soup'.startswith('tomato')
+True
 ```
 
 
