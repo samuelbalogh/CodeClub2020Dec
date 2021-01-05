@@ -276,6 +276,52 @@ You can remove an item with the `remove()` method, and you can do a lot of other
 - [More on lists](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
 
 
+### Dictionaries
+
+Official [Python docs here](https://docs.python.org/3/tutorial/datastructures.html#dictionaries).
+
+```
+# this is an emptry dictionary
+stock_prices = {}
+
+# We can add some values to the dictionary like so:
+
+stock_prices['IBM'] = 126
+stock_prices['TSLA'] = 660
+
+# we can declare a dictionary like this as well:
+stock_prices = {'IBM': 126, 'TSLA': 660}
+
+# Or we can do a dictionary for cocktail recipes:
+cocktails = {}
+cocktails['rob roy'] = ['whisky', 'angostura bitters', 'sweet vermouth', 'ice']
+cocktails['old fashioned'] = ['whisky', 'angostura bitters', 'sugar', 'water', 'lemon peel', 'ice']
+
+# dictionaries are iterable objects - we can iterate over them.
+# to iterate over keys:
+for cocktail in cocktails:
+    print(cocktail)
+
+# to iterate over values:
+for cocktail in cocktails.values():
+    print(cocktail)
+
+# to iterate over both the keys and values, we can use the items() method on the dictionary:
+for key, value in cocktails.items():
+    print(key, value)
+
+# we can use the "in" operator on dictionaries
+>> 'rob roy' in cocktails
+True
+
+# dicionaries are also called "look up tables" because we can look up things in them:
+>>> cocktails['rob roy']
+['whisky', 'angostura bitters', 'sweet vermouth', 'ice']
+```
+
+### Sets
+
+
 ## Functions
 
 We write functions to be able to **re-use** our code. If we have defined a function, we can use it later any time we want, for as many times we want.
