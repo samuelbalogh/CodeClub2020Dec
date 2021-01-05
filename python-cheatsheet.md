@@ -280,46 +280,100 @@ You can remove an item with the `remove()` method, and you can do a lot of other
 
 Official [Python docs here](https://docs.python.org/3/tutorial/datastructures.html#dictionaries).
 
+This is an empty dictionary:
+
 ```
-# this is an emptry dictionary
 stock_prices = {}
+```
 
-# We can add some values to the dictionary like so:
+We can add some values to the dictionary like so:
 
+```
 stock_prices['IBM'] = 126
 stock_prices['TSLA'] = 660
+```
 
-# we can declare a dictionary like this as well:
+We can declare a dictionary like this as well:
+
+```
 stock_prices = {'IBM': 126, 'TSLA': 660}
+```
 
-# Or we can do a dictionary for cocktail recipes:
+Or we can do a dictionary for cocktail recipes:
+
+```
 cocktails = {}
 cocktails['rob roy'] = ['whisky', 'angostura bitters', 'sweet vermouth', 'ice']
 cocktails['old fashioned'] = ['whisky', 'angostura bitters', 'sugar', 'water', 'lemon peel', 'ice']
+```
 
-# dictionaries are iterable objects - we can iterate over them.
-# to iterate over keys:
+
+Dictionaries are iterable objects - we can iterate over them.
+To iterate over keys:
+
+```
 for cocktail in cocktails:
     print(cocktail)
+```
 
-# to iterate over values:
+To iterate over values:
+
+```
 for cocktail in cocktails.values():
     print(cocktail)
+```
 
-# to iterate over both the keys and values, we can use the items() method on the dictionary:
+To iterate over both the keys and values, we can use the items() method on the dictionary:
+
+```
 for key, value in cocktails.items():
     print(key, value)
+```
 
-# we can use the "in" operator on dictionaries
->> 'rob roy' in cocktails
+We can use the "in" operator on dictionaries:
+
+```
+>>> 'rob roy' in cocktails
 True
+```
 
-# dicionaries are also called "look up tables" because we can look up things in them:
+Dicionaries are also called "look up tables" because we can look up things in them:
+
+```
 >>> cocktails['rob roy']
 ['whisky', 'angostura bitters', 'sweet vermouth', 'ice']
 ```
 
 ### Sets
+
+```
+# A set is an unordered collection with no duplicate elements.
+# it can be used to de-duplicate a list:
+
+shopping_list = ['carrots', 'potatoes', 'cognac', 'olive oil', 'tonic water', 'beans', 'lentils', 'potatoes'] 
+
+set(shopping_list)
+
+# suppose there are two shopping lists,
+# and you want to merge them and avoid duplications
+
+shopping_list_1 = ['carrots', 'potatoes', 'cognac', 'olive oil', 'tonic water', 'beans', 'lentils', 'potatoes'] 
+shopping_list_2 = ['potatoes', 'bread', 'eggplant', 'cognac', 'olive oil', 'tonic water', 'beans', 'lentils', 'potatoes'] 
+
+# make them into sets (cast them with set()) 
+set_1 = set(shopping_list_1)
+set_2 = set(shopping_list_2)
+
+# what is their union?
+set_1.union(set_2)
+
+# what is the intersection?
+set_1.intersection(set_2)
+
+# what is their difference? 
+set_2.difference(set_1)
+set_1.difference(set_2)
+```
 
 
 ## Functions
