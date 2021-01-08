@@ -350,6 +350,41 @@ Dicionaries are also called "look up tables" because we can look up things in th
 ['whisky', 'angostura bitters', 'sweet vermouth', 'ice']
 ```
 
+What happens if we try to look up a value that is not in the dictionary?
+
+```
+>>> cocktails['martini']
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'martini'
+```
+
+We got a `KeyError`. This happens when we try to access a non-existent key in a dictionary.
+
+Sometimes we want to look up a key in a dictionary but we're not sure if it's in it. 
+We could check first if the key is in:
+
+```
+if 'martini' in cocktails:
+    print(cocktails['martini'])
+else:
+    print('No recipe for martini')
+```
+
+Or we can use the `.get()` method on the dictionary:
+
+```
+cocktails.get('martini')
+```
+
+The above line will evaluate to `None`, because 'martini' is not stored in the dict.
+`.get()` can take an optional default value, like so:
+
+`dictionary.get("key im looking for", 'default_value')`  - if `'key im looking for'` is not in the `dictionary`, this expression will evaluate to `'default_value'`
+
+
+
+
 ### Sets
 
 ```
