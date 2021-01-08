@@ -299,12 +299,18 @@ We can declare a dictionary like this as well:
 stock_prices = {'IBM': 126, 'TSLA': 660}
 ```
 
-Or we can do a dictionary for cocktail recipes:
+Or we can do a dictionary for cocktail recipes - notice that the values are lists in this case:
 
 ```
 cocktails = {}
 cocktails['rob roy'] = ['whisky', 'angostura bitters', 'sweet vermouth', 'ice']
 cocktails['old fashioned'] = ['whisky', 'angostura bitters', 'sugar', 'water', 'lemon peel', 'ice']
+```
+
+We can delete a dictionary key with the `del` keyword:
+
+```
+del cocktails['old fashioned']
 ```
 
 
@@ -375,7 +381,6 @@ set_2.difference(set_1)
 set_1.difference(set_2)
 ```
 
-
 ## Functions
 
 We write functions to be able to **re-use** our code. If we have defined a function, we can use it later any time we want, for as many times we want.
@@ -414,6 +419,15 @@ Arguments can be considered as the "input" to your function - you get some data 
 
 
 A very detailed article about functions can be read [here](https://realpython.com/defining-your-own-python-function/#functions-in-python). 
+
+Funcions can have **positional arguments** and/or **keyword arugments**.
+
+Positional arguments are **required** arguments - you have to pass them when you call the function. The **order is important**.
+Keyword arguments are **optional** arguments - you can, but don't have pass them to the function when you call it. If you don't pass them, their **default** value will be used. Their order is not important.
+
+[See this section in the above article](https://realpython.com/defining-your-own-python-function/#argument-passing)
+
+
 
 
 
