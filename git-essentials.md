@@ -128,3 +128,10 @@ Switch to another branch:
 ```
 git checkout name-of-the-branch
 ```
+
+
+Show the current branch I'm on and the state of my working tree:
+
+```
+git status
+```
