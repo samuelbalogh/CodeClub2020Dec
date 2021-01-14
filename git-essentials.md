@@ -1,4 +1,15 @@
-# Git Terminology
+## Git config
+
+
+### Create SSH key and set up connection to Github
+
+https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key
+
+### Configure username and email addres
+
+https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+
+## Git Terminology
 
 
 > Some of the contents of this file are copied from the following sources:  
@@ -23,6 +34,11 @@ A single Git repository can track an arbitrary number of branches, but your work
 ### Staging area
 
 Also known as **index**, it stores the local changes of your "working tree", which is just to say, it stores the **recent changes you have made** to the repository since the last commit.
+
+
+### Commit 
+
+A "commit" is the Git equivalent of "save". When you *commit* your changes with a *commit message*, you capture a snapshot of the current state of the project. The commit you have created represents the changes that you made to the project since the last commit.
 
 
 ## Commands
