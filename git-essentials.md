@@ -20,9 +20,9 @@ The most recent commit on a branch is referred to as the tip of that branch. The
 which moves forward as additional development is done on the branch. 
 A single Git repository can track an arbitrary number of branches, but your working tree is associated with just one of them (the "current" or "checked out" branch), and `HEAD` points to that branch.
 
-### 
+### Staging area
 
-
+Also known as **index**, it stores the local changes of your "working tree", which is just to say, it stores the **recent changes you have made** to the repository since the last commit.
 
 
 ## Commands
@@ -99,3 +99,16 @@ git log -p
 ```
 
 
+Create a new branch:
+
+```
+git branch name-of-the-new-branch
+```
+
+
+Switch to another branch:
+
+
+```
+git checkout name-of-the-branch
+```
