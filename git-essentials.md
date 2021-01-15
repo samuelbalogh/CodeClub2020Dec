@@ -1,4 +1,4 @@
-## Git in two minutes
+## Git in 20 minutes
 
 
 The most basic git workflow looks like this:
