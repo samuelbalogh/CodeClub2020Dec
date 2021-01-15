@@ -1,3 +1,37 @@
+## Git in two minutes
+
+
+The most basic git workflow looks like this:
+
+
+1) You **create a new branch** , and switch to it:
+
+```
+git branch my-branch
+git checkout my-branch
+```
+
+2) You make changes to the code (for example, in the Atom editor)
+
+3) You **add** the changes to the staging area:
+
+```
+git add .
+```
+
+4) You **commit** those changes:
+
+```
+git commit -m 'make changes to some files'
+```
+
+5) You **push** those changes:
+
+```
+git push -u origin my-branch
+```
+
+
 ## Git config
 
 
