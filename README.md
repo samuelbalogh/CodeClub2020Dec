@@ -43,10 +43,12 @@ Main course content: https://repl.it/@SamuBalogh/Lesson-1#main.py
 
 
 # Lesson 2
-# Taking a step back after the deep dive of the first lesson 
+
+Taking a step back after the deep dive of the first lesson 
 
 # Showing how to interact with Python:
-# https://realpython.com/interacting-with-python/#hello-world
+
+https://realpython.com/interacting-with-python/#hello-world
 
 """
 How to run Python code?
