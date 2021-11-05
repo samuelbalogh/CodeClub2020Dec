@@ -3,6 +3,10 @@
 
 The most basic git workflow looks like this:
 
+0) You are working in a `repository`. You have either _cloned_ a repository, or you have _initialized_ one. 
+
+- `git clone` 
+- `git init`
 
 1) You **create a new branch** , and switch to it:
 
